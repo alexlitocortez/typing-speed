@@ -15,12 +15,24 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     color: white;
+    margin: auto;
+}
+
+.grid-item-1 {
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.grid-item-2 {
+    border-right: 1px solid #ccc;
+    padding: 10px;
 }
 
 .container-two {
     display: flex;
     width: 100%;
     gap: 10px;
+    margin-top: 1rem;
 }
 
 .container-two button {
@@ -31,9 +43,23 @@ body {
     cursor: pointer;
 }
 
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
-/* .container img {
-    margin-top: auto;
-} */
+.container-flex button {
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(22, 124, 252);
+    padding: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+}
 
-/* Align top images horizontally so their tops align */
+.container-flex p {
+    color: white;
+}
